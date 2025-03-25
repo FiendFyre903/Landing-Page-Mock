@@ -158,3 +158,12 @@ header{
     box-shadow: none;
     border-style: solid;
 }
+
+footer{
+    background-color: #1F2937;
+    color: #e5e7eb;
+    align-self: stretch;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-align: center;
+}
