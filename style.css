@@ -28,7 +28,6 @@ header{
 .logo{
     color: #f9faf8;
     font-size: 24px;
-    flex:1;
 }
 
 .links{
@@ -72,5 +71,40 @@ header{
     width:auto; 
 }
 
+.information{
+    padding:32px 128px;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    word-spacing: -4px;
+    gap:32px;
+    margin-bottom: 128px;
+}
 
+.information-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:900;
+}
 
+.cards{
+    display:flex;
+    justify-content: space-between;
+    gap:64px;
+}
+
+.info-image{
+    width:150px;
+    height:auto;
+    flex:1;
+    border-color: #3882f6;
+    border-radius: 5%;
+}
+
+.info-card{
+    width: 150px;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
